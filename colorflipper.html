@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOR FLIPPER</title>
+    <STYLE>
+    *{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    animation: neon 2s infinite;
+     }
+    .display{
+        text-align: center;
+        justify-content: space-around;
+        margin:6cm 16cm 0cm 16cm    
+    }
+
+
+
+  @keyframes  neon{
+    0%, 15%{
+           background-color:darkgreen ;
+    }
+    20%{
+        background-color:rgb(226, 23, 33) ;
+ }
+
+ 50%{
+    background-color:rgb(248, 157, 248) ;
+}
+
+80%{
+    background-color:rgb(16, 123, 199) ;
+}
+
+100%{
+    background-color:rgb(138, 50, 205) ;
+}
+
+}
+    
+    </STYLE>
+</head>
+<body>
+    <div class="container">
+        <h1>BACKGROUND COLOR FLIPPER</h1>
+       
+        
+    </div>
+
+    <div class="display">
+        <h1>Background-Color is 
+            <h1 id="result"></h1>
+        </h1>
+       
+    </div>
+
+    <noscript>The Script is not supported</noscript>
+</body>
+</html>
